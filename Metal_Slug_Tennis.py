@@ -14,7 +14,7 @@ bg = pygame.transform.scale(bg,(640,480))
 pygame.display.set_caption("Metal Slug Minigame")
 
 
-# Creamos la bola y la tratamos como un cuadrado
+# Creamos la bola y la tratamos como un objeto cuadrado
 bola = pygame.image.load("lasergun.png")
 bolacuadrada = bola.get_rect()
 
